@@ -1,0 +1,48 @@
+.subplan-info {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.subplan-desc {
+  padding: 10px;
+  text-align: center;
+}
+
+.images-gallery {
+  text-align: center;
+}
+
+.images-gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.images-gallery-container img {
+  height: 350px;
+  width: 50%;
+  padding: 15px;
+}
+@media screen and (max-width: 700px) {
+  .images-gallery-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .images-gallery-container img {
+    width: 100%;
+    padding: 10px 10px;
+  }
+}
+.call-enquiry {
+  margin: 15px auto;
+  color: #541484;
+}
+.call-enquiry-first {
+  text-align: center;
+  color: #ffff;
+  /* background-color: #541484; */
+}
+/* @media only screen and (max-width: 700px) {
+  .accordion-box li {
+    display: visible !important;
+  }
+} */
